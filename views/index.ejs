@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/style.css">
+        <title>Weather App</title>
+    </head>
+    <body>
+        <div class="main">
+            <div id="circle-container">
+                <img src="/images/icon2.png">
+            </div>
+            <div id="container">
+                <h1>Weather App</h1>
+                    <div id="form-content">
+                        <form>
+                            <input type="text" placeholder="Enter your location">
+                            <button type="submit" id="submit-btn" onclick="load()">See weather</button>
+                        </form>
+                    </div>
+
+                    <div id="loading-screen" class="hidden">
+                        <p id="progress-text"></p>
+                        <div id="bar">
+                            <div id="loading-bar" style="width:5%">20%</div>
+                        </div>
+                    </div>
+
+                    <div id="message" class="hidden">
+                        <p>Look outside</p>
+                        <button id="reset-btn" onclick="reset()">Go back</button>
+                    </div>
+            </div>
+        </div>
+        <script src="/js/script.js"></script>
+    </body>
+</html>
