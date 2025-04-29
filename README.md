@@ -4,5 +4,5 @@ The main goal of this project was to practice and improve my skills in JavaScrip
 
 I was inspired to create this after seeing similar projects online and decided to build my own version as a learning exercise.
 
-# A screenshot of the project:
+### A screenshot of the project:
 ![Screenshot of the project interface](assets/screenshot.png)
